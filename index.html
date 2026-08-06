@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yune Sang Lee, Ph.D. — Cognitive Neuroscience of Music | Seoul National University</title>
+
+<meta name="description" content="Yune Sang Lee (이윤상), Ph.D. — Research Professor at the Seoul National University Brain Imaging Center. Cognitive neuroscience of music and language, rhythm-based neurorehabilitation, and digital sound therapy.">
+<meta name="author" content="Yune Sang Lee">
+<link rel="canonical" href="https://yunesanglee.com/">
+
+<link rel="alternate" hreflang="en" href="https://yunesanglee.com/">
+<link rel="alternate" hreflang="ko" href="https://yunesanglee.com/ko.html">
+<link rel="alternate" hreflang="x-default" href="https://yunesanglee.com/">
+
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:title" content="Yune Sang Lee, Ph.D. — Cognitive Neuroscience of Music">
+<meta property="og:description" content="Research Professor at the Seoul National University Brain Imaging Center. Studying how music influences cognition and physiological responses — and preventing its potential from being reduced to pseudoscience.">
+<meta property="og:url" content="https://yunesanglee.com/">
+<meta property="profile:first_name" content="Yune Sang">
+<meta property="profile:last_name" content="Lee">
+<meta property="og:image" content="https://yunesanglee.com/profile.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://yunesanglee.com/#person",
+  "name": "Yune Sang Lee",
+  "alternateName": ["이윤상", "Yune S. Lee", "Y.S. Lee", "Lee, Yune Sang"],
+  "honorificSuffix": "Ph.D.",
+  "jobTitle": "Research Professor",
+  "email": "mailto:cogrocker@snu.ac.kr",
+  "url": "https://yunesanglee.com/",
+  "image": "https://yunesanglee.com/profile.jpg",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "ORCID",
+    "value": "0000-0001-8401-6007",
+    "url": "https://orcid.org/0000-0001-8401-6007"
+  },
+  "description": "Cognitive neuroscientist studying how music influences human cognition and physiological responses, with particular attention to preventing its potential from being overstated or reduced to pseudoscience.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Seoul National University Brain Imaging Center",
+    "parentOrganization": { "@type": "CollegeOrUniversity", "name": "Seoul National University" }
+  },
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Seoul National University",
+    "sameAs": "https://en.wikipedia.org/wiki/Seoul_National_University"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Dartmouth College", "sameAs": "https://en.wikipedia.org/wiki/Dartmouth_College" },
+    { "@type": "CollegeOrUniversity", "name": "University of Pennsylvania", "sameAs": "https://en.wikipedia.org/wiki/University_of_Pennsylvania" },
+    { "@type": "CollegeOrUniversity", "name": "Yonsei University", "sameAs": "https://en.wikipedia.org/wiki/Yonsei_University" }
+  ],
+  "knowsAbout": [
+    "Cognitive neuroscience",
+    "Neuroscience of music",
+    "Neurobiology of language",
+    "Rhythm perception and production",
+    "Aphasia rehabilitation",
+    "Binaural beats",
+    "Auditory neuroscience",
+    "fMRI", "EEG", "fNIRS",
+    "Cognitive aging",
+    "Speech comprehension"
+  ],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=RP6vDH4AAAAJ",
+    "https://orcid.org/0000-0001-8401-6007",
+    "https://www.linkedin.com/in/yunesanglee"
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#fbfaf7;
+  --surface:#ffffff;
+  --text:#1c1b18;
+  --muted:#6b6862;
+  --faint:#9a968e;
+  --line:#e5e1d8;
+  --accent:#8a5a2b;
+  --accent-soft:#f3ece2;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#131311;
+    --surface:#1a1a17;
+    --text:#eceae5;
+    --muted:#a5a19a;
+    --faint:#75716a;
+    --line:#2c2b27;
+    --accent:#d8a86a;
+    --accent-soft:#241f18;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px;position:relative}
+
+/* ---------- language toggle ---------- */
+.langtoggle{
+  position:absolute;top:30px;right:24px;z-index:10;
+  display:flex;overflow:hidden;
+  border:1px solid var(--line);border-radius:999px;background:var(--surface);
+  font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:12.5px;font-weight:600;letter-spacing:.02em
+}
+.langtoggle a{
+  padding:6px 14px;border:0;color:var(--muted);text-decoration:none;
+  transition:background .15s,color .15s
+}
+.langtoggle a:hover{color:var(--text);background:var(--accent-soft)}
+.langtoggle a[aria-current="true"]{background:var(--accent);color:var(--bg)}
+.langtoggle a[aria-current="true"]:hover{background:var(--accent);color:var(--bg)}
+
+/* ---------- header ---------- */
+header{padding:78px 0 40px}
+.hgrid{display:flex;align-items:flex-start;gap:30px}
+.htext{flex:1;min-width:0}
+.portrait{
+  flex:none;width:132px;height:132px;margin-top:6px;
+  border-radius:50%;object-fit:cover;object-position:center 20%;
+  background:var(--accent-soft);border:1px solid var(--line)
+}
+.eyebrow{
+  font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:600;margin:0 0 14px
+}
+h1{
+  font-size:clamp(34px,7vw,46px);
+  line-height:1.1;margin:0 0 4px;font-weight:600;letter-spacing:-.015em
+}
+.hanja{font-size:17px;color:var(--faint);margin:0 0 20px;font-weight:400}
+.role{font-size:19px;color:var(--muted);margin:0 0 6px;line-height:1.5}
+.role strong{color:var(--text);font-weight:600}
+.lede{
+  font-size:19px;line-height:1.6;margin:28px 0 0;
+  border-left:3px solid var(--accent);padding-left:20px;color:var(--text)
+}
+
+/* ---------- generic sections ---------- */
+section{padding:38px 0;border-top:1px solid var(--line)}
+h2{
+  font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);font-weight:600;margin:0 0 22px
+}
+h3{font-size:18px;margin:0 0 6px;font-weight:600;letter-spacing:-.01em}
+p{margin:0 0 16px}
+p:last-child{margin-bottom:0}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 30%,transparent)}
+a:hover{border-bottom-color:var(--accent)}
+
+/* ---------- research themes ---------- */
+.theme{margin-bottom:26px}
+.theme:last-child{margin-bottom:0}
+.theme p{color:var(--muted);margin:0;font-size:16.5px}
+
+/* ---------- publications ---------- */
+ol.pubs{list-style:none;margin:0;padding:0;counter-reset:p}
+ol.pubs li{
+  position:relative;padding-left:34px;margin-bottom:20px;
+  font-size:16px;line-height:1.55;color:var(--muted)
+}
+ol.pubs li:last-child{margin-bottom:0}
+ol.pubs li::before{
+  counter-increment:p;content:counter(p);
+  position:absolute;left:0;top:2px;
+  font-family:ui-sans-serif,-apple-system,sans-serif;
+  font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums
+}
+ol.pubs .me{color:var(--text);font-weight:600}
+ol.pubs .venue{font-style:italic;color:var(--text)}
+
+/* ---------- timeline ---------- */
+.tl{display:grid;grid-template-columns:88px 1fr;gap:4px 20px;font-size:16px}
+.tl dt{
+  font-family:ui-sans-serif,-apple-system,sans-serif;
+  font-size:13px;color:var(--faint);padding-top:4px;font-variant-numeric:tabular-nums
+}
+.tl dd{margin:0 0 14px;color:var(--muted)}
+.tl dd b{color:var(--text);font-weight:600;display:block}
+
+/* ---------- highlights ---------- */
+.notes{list-style:none;margin:0;padding:0;font-size:16px;color:var(--muted)}
+.notes li{padding-left:18px;position:relative;margin-bottom:10px}
+.notes li::before{content:"";position:absolute;left:0;top:11px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.notes li:last-child{margin-bottom:0}
+
+/* ---------- contact ---------- */
+.contact{
+  background:var(--accent-soft);border-radius:10px;padding:28px;margin-top:4px
+}
+.contact p{font-size:16.5px;color:var(--muted)}
+.links{
+  display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;
+  font-family:ui-sans-serif,-apple-system,sans-serif;font-size:14px
+}
+.links a{
+  border:1px solid var(--line);background:var(--surface);
+  padding:7px 15px;border-radius:999px;color:var(--text);font-weight:500
+}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+
+footer{
+  padding:36px 0 60px;border-top:1px solid var(--line);
+  font-family:ui-sans-serif,-apple-system,sans-serif;
+  font-size:13px;color:var(--faint)
+}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  header{padding:76px 0 32px}
+  .hgrid{gap:18px}
+  .portrait{width:84px;height:84px;margin-top:2px}
+  .tl{grid-template-columns:1fr;gap:0}
+  .tl dt{padding-top:12px}
+  .contact{padding:22px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="langtoggle" aria-label="Language">
+  <a href="/" hreflang="en" lang="en" aria-current="true">EN</a>
+  <a href="/ko.html" hreflang="ko" lang="ko">한국어</a>
+</nav>
+
+<header>
+  <div class="hgrid">
+    <div class="htext">
+      <p class="eyebrow">Cognitive Neuroscience of Music</p>
+      <h1>Yune Sang Lee, Ph.D.</h1>
+      <p class="hanja">이윤상</p>
+      <p class="role"><strong>Research Professor</strong> · Seoul National University Brain Imaging Center</p>
+      <p class="role">Computational Clinical Science Lab</p>
+    </div>
+    <img class="portrait" src="profile.jpg"
+         srcset="profile@1x.jpg 300w, profile.jpg 600w" sizes="132px"
+         width="132" height="132"
+         alt="Portrait of Yune Sang Lee">
+  </div>
+
+  <p class="lede">
+    I study how music influences human cognition and physiological responses,
+    with particular attention to preventing its potential from being overstated
+    or reduced to pseudoscience. Drawing on neuroimaging and behavioral science,
+    I explore for whom, under what conditions, and to what extent music and sound
+    may be useful. My aim is to translate meaningful possibilities into real-world
+    value that people can trust.
+  </p>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    I am a cognitive neuroscientist studying how music, rhythm, and sound shape
+    human cognition, communication, and physiological responses. My work connects
+    fundamental questions about the brain with the development of evidence-informed
+    sound applications that may support rehabilitation, cognitive and emotional
+    health, and everyday functioning. I am now particularly interested in
+    translating carefully tested principles of sound into tools and environments
+    that can be evaluated in real-world settings.
+  </p>
+  <p>
+    I studied biology at Yonsei University, then trained at Dartmouth (Ph.D.,
+    Cognitive Neuroscience) and the University of Pennsylvania. I then led the SLAM
+    (Speech, Language, and Music) Lab for nine years at The Ohio State University
+    and The University of Texas at Dallas, before returning to Seoul in 2025. Along
+    the way my lab has been supported by the NIH, the NSF, the Parkinson's
+    Foundation, and industry partners in the US, Korea, and Japan.
+  </p>
+  <p>
+    I played guitar in bands from my university years, and after graduating
+    worked as a music director at an advertising-music studio.
+    Those years are not incidental to the research — they are most of the reason
+    for it.
+  </p>
+</section>
+
+<section id="research">
+  <h2>Research</h2>
+
+  <div class="theme">
+    <h3>Rhythm-based neurorehabilitation</h3>
+    <p>
+      If rhythm and language share resources, rhythm can be a route back into
+      language. I test rhythm video-game therapy for aphasia and drum-and-dance
+      programs for Parkinson's disease, and measure what changes in the brain when
+      they work.
+    </p>
+  </div>
+
+  <div class="theme">
+    <h3>Digital sound therapy</h3>
+    <p>
+      Binaural beats and immersive 3D audio as non-invasive neuromodulation —
+      for sentence comprehension in healthy listeners, for children with
+      developmental language disorder, and for patients with mild cognitive
+      impairment or Alzheimer's disease.
+    </p>
+  </div>
+
+  <div class="theme">
+    <h3>Music and language skills in children</h3>
+    <p>
+      How a child handles rhythm and speech sound is bound up with how that child
+      learns to read. In children with dyslexia, I establish what auditory and
+      rhythmic processing contribute to reading difficulty, and help design
+      assessments that measure phonological, auditory, visual, and cognitive
+      components together. Neuroimaging is how I measure the effects of
+      rhythm-based training in these children.
+    </p>
+  </div>
+
+  <div class="theme">
+    <h3>Protective effects of music in aging</h3>
+    <p>
+      Older musicians do not hear better, yet they follow speech in noise better
+      than their peers. Since hearing loss raises dementia risk, the question is
+      whether musical experience builds enough cognitive reserve to offset that
+      cost. I use neuroimaging to look for the traces musical experience leaves
+      in the aging brain, and to test whether training can still produce change
+      late in life.
+    </p>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Selected publications</h2>
+  <ol class="pubs">
+    <li>
+      Kim, J.H., Kim, H-W., Kovar, J., <span class="me">Lee, Y.S.</span> (2024).
+      Neural consequences of binaural beat stimulation on auditory sentence
+      comprehension: an EEG study. <span class="venue">Cerebral Cortex</span>.
+      <a href="https://doi.org/10.1093/cercor/bhad459">doi:10.1093/cercor/bhad459</a>
+    </li>
+    <li>
+      Kim, H-W., Kovar, J., Bajwa, J.S., Miran, Y., Ahmad, A., Moreno, M.M.,
+      Price, T.J., <span class="me">Lee, Y.S.</span> (2024). Rhythmic motor
+      behavior explains individual differences in grammar skills in adults.
+      <span class="venue">Scientific Reports</span>.
+      <a href="https://doi.org/10.1038/s41598-024-53382-9">doi:10.1038/s41598-024-53382-9</a>
+    </li>
+    <li>
+      Kim, H-W., Lee, K., <span class="me">Lee, Y.S.</span> (2023). Sensorimotor
+      and working memory systems jointly support development of perceptual rhythm
+      processing. <span class="venue">Developmental Science</span>, 26(1), e13261.
+    </li>
+    <li>
+      <span class="me">Lee, Y.S.</span>, Rogers, C., Min, N.E., Wingfield, A.,
+      Grossman, M., Peelle, J.E. (2022). Neural compensation supporting successful
+      speech comprehension in normal aging.
+      <span class="venue">Aging Brain</span>, 2, 100051.
+    </li>
+    <li>
+      Heard, M.J. &amp; <span class="me">Lee, Y.S.</span> (2020). Shared neural
+      resources of rhythm and grammar: an ALE meta-analysis.
+      <span class="venue">Neuropsychologia</span>, 137, 107284.
+    </li>
+    <li>
+      <span class="me">Lee, Y.S.</span>, Ahn, S.H., Holt, R.F., Schellenberg, G.
+      (2020). Rhythm and syntax processing in school-age children.
+      <span class="venue">Developmental Psychology</span>, 56(9), 1632–1641.
+    </li>
+    <li>
+      <span class="me">Lee, Y.S.</span>, Wingfield, A., Min, N.E., Kotloff, E.,
+      Grossman, M., Peelle, J.E. (2018). Differences in hearing acuity among
+      "normal-hearing" young adults modulate the neural basis for speech
+      comprehension. <span class="venue">eNeuro</span>, 0263-17.2018.
+    </li>
+    <li>
+      <span class="me">Lee, Y.S.</span>, Turkeltaub, P.E., Granger, R.H.,
+      Raizada, R.D.S. (2012). Categorical speech processing in Broca's area.
+      <span class="venue">Journal of Neuroscience</span>, 32(11), 3942–3948.
+    </li>
+    <li>
+      <span class="me">Lee, Y.S.</span>, Janata, P., Frost, C., Hanke, M.,
+      Granger, R.H. (2011). Investigation of melodic contour processing in the
+      brain using pattern-based fMRI.
+      <span class="venue">NeuroImage</span>, 57(1), 293–300.
+    </li>
+  </ol>
+  <p style="margin-top:22px;font-size:15px;color:var(--faint)">
+    Full list on <a href="https://scholar.google.com/citations?user=RP6vDH4AAAAJ">Google Scholar</a>. Book chapters in
+    the <em>Oxford Handbook on Music and the Brain</em> (2019) and
+    <em>Music Therapy &amp; Music-Based Interventions in Neurology</em>
+    (Springer Nature, 2024).
+  </p>
+</section>
+
+<section id="positions">
+  <h2>Positions &amp; training</h2>
+  <dl class="tl">
+    <dt>2025 –</dt>
+    <dd><b>Seoul National University</b>Research Professor, SNU Brain Imaging Center / Computational Clinical Science Lab</dd>
+
+    <dt>2020 – 2025</dt>
+    <dd><b>The University of Texas at Dallas</b>Assistant Professor, Speech, Language, and Hearing · Callier Center &amp; Center for BrainHealth</dd>
+
+    <dt>2016 – 2020</dt>
+    <dd><b>The Ohio State University</b>Assistant Professor, Speech and Hearing Sciences · Chronic Brain Injury Discovery Theme</dd>
+
+    <dt>2011 – 2016</dt>
+    <dd><b>University of Pennsylvania</b>Postdoctoral Fellow, Neurology &amp; Center for Cognitive Neuroscience</dd>
+
+    <dt>2005 – 2010</dt>
+    <dd><b>Dartmouth College</b>Ph.D., Cognitive Neuroscience · Psychological and Brain Sciences</dd>
+
+    <dt>2003 – 2005</dt>
+    <dd><b>T.K.B Commercial Music Studio</b>Music Director</dd>
+
+    <dt>2002 – 2003</dt>
+    <dd><b>Samsung Capital</b>Public Relations Officer</dd>
+
+    <dt>2001</dt>
+    <dd><b>Yonsei University</b>B.S., Biology · Department of Biology (now Systems Biology)</dd>
+  </dl>
+</section>
+
+<section id="highlights">
+  <h2>Selected funding &amp; recognition</h2>
+  <ul class="notes">
+    <li><b>NIH / NIDCD R21</b> — Neural mechanisms of language recovery through rhythm gaming therapy in aphasia (PI)</li>
+    <li><b>NSF TRIPODS+X</b> — MBI TGDA + Neuro program for undergraduates (MPI) · featured on the NSF website front page</li>
+    <li><b>Shimadzu Scientific Instruments</b> — fNIRS for speech, language, and music research (PI)</li>
+    <li><b>Neuroscience Innovation Foundation</b> — Research support for the SLAM Lab (PI)</li>
+    <li><b>The Parkinson's Foundation</b> — Drum Dance Rehabilitation for Parkinson's disease (PI)</li>
+    <li>Media coverage in <b>US News &amp; World Report</b>, <b>Healthline</b>, <b>Neuroscience News</b>, and <b>MBC News Desk</b></li>
+    <li>Director of Scientific Affairs, Korean Society for Music Perception &amp; Cognition; and The Society for Clinical Music Science Research</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Get in touch</h2>
+  <div class="contact">
+    <p>
+      I'm open to collaborations on auditory neuroscience, music-based
+      intervention, and clinical translation of sound therapy — and to speaking
+      invitations. Students and postdocs interested in the lab are welcome to
+      write.
+    </p>
+    <div class="links">
+      <a href="mailto:cogrocker@snu.ac.kr">cogrocker@snu.ac.kr</a>
+      <a href="https://scholar.google.com/citations?user=RP6vDH4AAAAJ">Google Scholar</a>
+      <a href="https://orcid.org/0000-0001-8401-6007">ORCID</a>
+      <a href="https://www.linkedin.com/in/yunesanglee">LinkedIn</a>
+      <a href="Lee_CV.pdf">CV (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p style="margin:0">
+    Yune Sang Lee (이윤상), Ph.D. · Seoul National University Brain Imaging Center, Seoul, Korea<br>
+    Last updated August 2026
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
